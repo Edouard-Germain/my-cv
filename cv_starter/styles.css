@@ -1,0 +1,80 @@
+header{
+    background-color: #0475ba;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: flex-start;
+    gap: 60px;
+    padding-left: 3em;
+    padding-bottom: 40px;
+}
+.menu{
+    color: white;
+    padding: 30px;
+
+}
+#pres{
+    display: flex;
+    justify-content: center;
+    color: #0475ba;
+    gap:60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+/* postpone */
+}
+img {
+    width:200px;
+   clip-path:ellipse(50% 50%);
+   float: left;
+}
+#profil{
+    background-color:#0475ba ;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 360px;
+}
+#Expériences{
+    display: flex;
+    flex-direction: column;
+   padding-left: 360px;
+   text-align: left;
+   
+
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 280px;
+    font-weight: bold;
+}
+#Formations{
+    color: white;
+    background-color:#0475ba;
+    padding-left: 360px;
+
+}
+#Passions{
+    color:#0475ba;
+    padding-left: 360px;
+}
+footer{
+    display: flex;
+    background-color: #0475ba ;
+    color: white;
+    gap: 60px;
+}
+#blog{
+    display: flex;
+    flex-direction: column;
+}
+#rs{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: white;
+}
