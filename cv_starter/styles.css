@@ -36,17 +36,19 @@ header{
 #title{
     margin-right: 80px;
     font-weight: bold;
+    text-justify:left;
 }
 #name{
     color: black;
     font-weight: bold;
-    text-justify: center;
+    text-align: center;
 }
 img {
     width: 150px;
     height: 150px;
    clip-path:ellipse(50% 50%);
    float: left;
+   box-shadow: 6px 6px 6px 6px rgb(112, 109, 109);
 }
 #profil{
     background-color:#0475ba ;
@@ -62,6 +64,8 @@ img {
     flex-direction: column;
    padding-left: 360px;
    text-align: left;
+   padding-top: 40px;
+    padding-bottom: 40px;
    
 
 }
@@ -75,11 +79,15 @@ img {
     color: white;
     background-color:#0475ba;
     padding-left: 360px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 #Passions{
     color:#0475ba;
     padding-left: 360px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 }
 footer{
@@ -105,4 +113,10 @@ footer{
 a{
     color: white;
     text-decoration:none; 
+}
+a:visited {
+    color:white;
+  }
+#pname{
+    color:black;
 }
